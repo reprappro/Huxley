@@ -1,0 +1,41 @@
+eMAKER Huxley
+
+Created by Jean-Marc Giacalone 2011-03-01
+
+License GPL
+
+No guarantee is made that the files contained in this project will be free
+from design faults. The user accepts the risk that some issues may arise
+from printing and assembling the files contained within this project. Users
+are however encouraged to publish errors/improvements back to the originator.
+
+./Openscad/huxley_sheets.scad is the master. Output from this file is used
+in production.
+
+Bill of Materials:
+
+1 x bearing-holder-fixed
+1 x bearing-holder-float
+2 x belt-clamp
+2 x frame-vertex
+4 x frame-vertex-foot
+1 x idler
+1 x idler-cover
+1 x large_gear
+1 x M6-block
+1 x nozzle-mounting
+2 x pla-coupling
+1 x small_gear
+1 x tongue
+1 x x-carriage
+1 x x-idler-bracket
+1 x x-motor-bracket
+7 x y-bar-clamp
+1 x y-endstop-holder
+1 x y-idler-split1
+1 x y-idler-split2
+1 x y-motor-split1
+1 x y-motor-split2
+1 x z-endstop-holder
+2 x z-motor-bracket
+
