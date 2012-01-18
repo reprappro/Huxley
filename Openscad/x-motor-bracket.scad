@@ -16,7 +16,7 @@ module x_motor_body()
 {
 	difference(){
 		union(){
-		translate([0,0,0]) rotate([0,0,90]) import_stl("../stl/x-motor-bracket_.stl");
+		translate([0,0,0]) rotate([0,0,90]) import_stl("../Print-Huxley/Individual-STLs/x-motor-bracket_.stl");
 		//translate([-4,48,20.15]) rotate([90,0,90])
 		//	bushing(true,11);
 		//translate([-53,48,20.15]) rotate([90,0,90])

@@ -1,30 +1,6 @@
-Prusa Mendel
+RepRapPro Huxley
 
-Please read http://reprap.org/wiki/Prusa_Mendel before attempting to build this. There is also PDF (manual-wiki) with backup documentation from reprap.org.  
+OpenSCAD models for all parts.
 
-Imported stuff:
-Frame vertices are based on Viks and Tonokips ones
-Extruder by Wade
-Parametric Involute Bevel and Spur Gears by GregFrost
-Belt pulley is http://www.thingiverse.com/thing:3104 by GilesBathgate
+Please read http://reprap.org/wiki/RepRapPro_Huxley 
 
-Prusa Mendel part list:
-
-To print:
-
-6x frame-vertex-without-foot or 2x -without-foot and 4x -with-foot
-2x coupling
-3x endstop-holder
-1x x-carriage
-1x x-end-idler
-1x x-end-motor
-2x z-motor-mount
-4x belt-clamp
-8x bar-clamp
-2x rod-clamp
-1x y-motor-bracket
-2x pulley
-
-12x pla-bushing 
-
-The Mendel build plate contains all the parts except the pla bushings

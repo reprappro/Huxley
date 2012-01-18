@@ -16,7 +16,7 @@ module x_idler_body()
 {
 	difference(){
 		union(){
-		translate([0,0,0]) rotate([0,0,90]) import_stl("../stl/x-idler-bracket_.stl");
+		translate([0,0,0]) rotate([0,0,90]) import_stl("../Print-Huxley/Individual-STLs/x-idler-bracket_.stl");
 		//translate([-4,28,20.15]) rotate([90,0,90])
 		//	bushing(true,10.5);
 		//translate([-52.5,28,20.15]) rotate([90,0,90])

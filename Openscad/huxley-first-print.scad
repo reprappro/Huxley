@@ -48,7 +48,7 @@ module power_clip()
 						cylinder(r=4,h=14,$fn=20);
 			}
 	
-		import_stl("../stl/frame-vertex-foot.stl");
+		import_stl("../Print-Huxley/Individual-STLs/frame-vertex-foot.stl");
 		
 		translate([-2.1,20.8,5])
 			cylinder(r=1.7,h=20,$fn=20);

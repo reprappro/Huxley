@@ -4,7 +4,7 @@ include<configuration.scad>;
 module idler_body_l()
 {
 	difference(){
-		translate([0,0,0]) rotate([0,0,90]) import_stl("../stl/idler_.stl");
+		translate([0,0,0]) rotate([0,0,90]) import_stl("../Print-Huxley/Individual-STLs/idler_.stl");
 		translate([-10,-20,7.5]) cube([20,40,20]);
 	}
 
