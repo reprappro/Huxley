@@ -18,7 +18,7 @@ huxley_first_print();
 
 // These are the individual parts on their own.
 // Every configuration needs one power clip
-// In addition Sanguinololus need three straight pcb clips; Melzis needs four with two mirrored
+// In addition Sanguinololus need four pcb clips; Melzis needs four with two mirrored
 
 //power_clip();
 //pcb_clip();
@@ -76,8 +76,16 @@ module power_clip()
 	}
 }
 
-
 module pcb_clip()
+{
+	if(Sanguinololu)
+		sanguinololu_pcb_clip();
+	else
+		melzi_pcb_clip();
+}
+
+
+module melzi_pcb_clip()
 {
 	difference()
 	{
@@ -85,27 +93,41 @@ module pcb_clip()
 		{
 			translate([7,0,6])
 				cube([14,12,12], center=true);
-			if(!Sanguinololu)
-			{
-				translate([7,5,3])
-					cube([14,10,6], center=true);
-			}
+			translate([7,5,3])
+				cube([14,10,6], center=true);
 			cylinder(r=6,h=12,$fn=30);
 		}
 		translate([0,0,-1])
 			cylinder(r=2.9,h=14,$fn=20);
 		translate([12,0,7])
 			cube([24,5.4,14], center=true);
-		if(!Sanguinololu)
-		{
-			translate([7,7,6])
-				cube([14,2,6], center=true);
-		} else
-		{
-			translate([8,0,6])
-				rotate([90,0,0])
-					cylinder(r=1.7,h=14,center=true,$fn=20);
-		}
+		translate([7,7,6])
+			cube([14,2,6], center=true);
 	}
 }
+
+
+module sanguinololu_pcb_clip()
+{
+	difference()
+	{
+		union()
+		{
+			translate([10.5,0,6])
+				cube([21,12,12], center=true);
+			cylinder(r=6,h=12,$fn=30);
+		}
+		translate([0,0,-1])
+			cylinder(r=2.9,h=14,$fn=20);
+		translate([12,0,7])
+			cube([24,5.4,14], center=true);
+		translate([5,0,6])
+			rotate([90,0,0])
+				cylinder(r=1.7,h=14,center=true,$fn=20);
+		translate([15,0,6])
+			rotate([90,0,0])
+				cylinder(r=1.7,h=14,center=true,$fn=20);
+	}
+}
+
 
