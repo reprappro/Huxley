@@ -23,4 +23,5 @@ cp idler.stl RepRapPro_Huxley_STLs/idler.stl
 cp tongue.stl RepRapPro_Huxley_STLs/tongue.stl
 cp pcb-clip-left.stl RepRapPro_Huxley_STLs/pcb-clip-left.stl
 cp pcb-clip-right.stl RepRapPro_Huxley_STLs/pcb-clip-right.stl
+cp pcb-clip-sanguinololu.stl RepRapPro_Huxley_STLs/pcb-clip-sanguinololu.stl
 cp power-clip.stl RepRapPro_Huxley_STLs/power-clip.stl
