@@ -113,8 +113,8 @@ module sanguinololu_pcb_clip()
 	{
 		union()
 		{
-			translate([10.5,0,6])
-				cube([21,12,12], center=true);
+			translate([8,0,6])
+				cube([16,12,12], center=true);
 			cylinder(r=6,h=12,$fn=30);
 		}
 		translate([0,0,-1])
@@ -124,7 +124,7 @@ module sanguinololu_pcb_clip()
 		translate([5,0,6])
 			rotate([90,0,0])
 				cylinder(r=1.7,h=14,center=true,$fn=20);
-		translate([15,0,6])
+		translate([10,0,6])
 			rotate([90,0,0])
 				cylinder(r=1.7,h=14,center=true,$fn=20);
 	}
