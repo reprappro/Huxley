@@ -48,31 +48,37 @@ module huxley_first_print()
 
 module power_clip()
 {
-	translate([-5,-14,14])
-	rotate([0,90,0])
 	difference()
 	{
-		translate([4,24,20])
-			difference()
-			{
-				cube([20,20,30], center=true);
-				translate([-3,3,13])
+		translate([-5,-14,14])
+		rotate([0,90,0])
+		difference()
+		{
+			translate([4,24,20])
+				difference()
+				{
 					cube([20,20,30], center=true);
-				translate([-17,5,0])
-					rotate([0,0,60])
-						cube([30,20,30], center=true);
-				translate([0,2,7])
-					rotate([0,90,0])
-						cylinder(r=4,h=14,$fn=20);
-			}
+					translate([-3,3,13])
+						cube([20,20,30], center=true);
+					translate([-17,5,0])
+						rotate([0,0,60])
+							cube([30,20,30], center=true);
+					translate([0,2,7])
+						rotate([0,90,0])
+							cylinder(r=4,h=14,$fn=20);
+				}
+		
+			import_stl("../Print-Huxley/Individual-STLs/frame-vertex-foot.stl");
+			
+			translate([-2.1,20.8,5])
+				cylinder(r=1.7,h=20,$fn=20);
+			
+			translate([-2.1,20.8,-1])
+				cylinder(r=3.4,h=15,$fn=20);
 	
-		import_stl("../Print-Huxley/Individual-STLs/frame-vertex-foot.stl");
-		
-		translate([-2.1,20.8,5])
-			cylinder(r=1.7,h=20,$fn=20);
-		
-		translate([-2.1,20.8,-1])
-			cylinder(r=3.4,h=15,$fn=20);
+		}
+		translate([-1,-1,-1])
+					cube([8,30,30]);
 	}
 }
 
