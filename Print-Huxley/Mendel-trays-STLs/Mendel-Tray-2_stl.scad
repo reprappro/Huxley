@@ -1,0 +1,17 @@
+translate([128,41,-0.0]) rotate([0,0,0]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/y-belt-tensioner.stl");
+translate([28,143,-0.0]) rotate([0,0,-90]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/y-bar-clamp.stl");
+translate([86,157,-0.0]) rotate([0,0,65]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/y-motor-split2.stl");
+translate([111,65,-0.0]) rotate([0,0,-90]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/coupling.stl");
+translate([137,65,0]) rotate([0,0,90]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/coupling.stl");
+translate([28,82,0]) rotate([0,0,-90]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/y-bar-clamp.stl");
+translate([145,95,6.0]) rotate([0,0,0]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/idler.stl");
+translate([160,40,-0.0]) rotate([0,0,0]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/y-belt-clamp.stl");
+translate([140,164,0.0]) rotate([0,0,-70]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/y-motor-split1.stl");
+translate([82,159,0]) rotate([0,0,-90]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/coupling.stl");
+translate([146,121,-0.0]) rotate([0,0,-180]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/y-endstop-holder.stl");
+translate([127,105,-0.0]) rotate([0,0,-210]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/y-idler-split2.stl");
+translate([132,90,-0.0]) rotate([0,0,30]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/y-idler-split1.stl");
+translate([37,53,-0.0]) rotate([0,0,0]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/large_gear.stl");
+translate([36,150,-0.0]) rotate([0,0,-90]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/M6-Block.stl");
+translate([28,112,0]) rotate([0,0,-90]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/y-bar-clamp.stl");
+translate([155,64,0]) rotate([0,0,-90]) import_stl("/home/jeanmarc/Documents/Models/eMAKER-Huxley-experimental/stl/coupling.stl");
