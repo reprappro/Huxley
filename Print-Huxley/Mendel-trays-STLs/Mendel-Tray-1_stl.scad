@@ -5,7 +5,7 @@ translate([164,138,-0.0]) rotate([0,0,0]) import_stl("../Individual-STLs/nozzle-
 translate([62,146,6.12323e-17]) rotate([0,0,60]) import_stl("../Individual-STLs/frame-vertex-foot.stl");
 translate([43,42,0]) rotate([0,0,0]) import_stl("../Individual-STLs/idler-cover.stl");
 translate([64,89,8.3276e-16]) rotate([0,0,60]) import_stl("../Individual-STLs/frame-vertex.stl");
-translate([88,130,-0.0]) rotate([0,0,0]) import_stl("../bearing-holder-float.stl");
+translate([88,130,-0.0]) rotate([0,0,0]) import_stl("../Individual-STLs/bearing-holder-float.stl");
 translate([62,166,6.12323e-17]) rotate([0,0,60]) import_stl("../Individual-STLs/frame-vertex-foot.stl");
 translate([138,134,-0.0]) rotate([0,0,-90]) import_stl("../Individual-STLs/x-motor-bracket.stl");
 translate([73,60,7.10543e-15]) rotate([0,0,-90]) import_stl("../Individual-STLs/z-motor-bracket.stl");
