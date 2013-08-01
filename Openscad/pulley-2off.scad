@@ -29,7 +29,7 @@ profile = 1;		// 1=MXL 2=40DP 3=XL 4=H 5=T2.5 6=T5 7=T10 8=AT5 9=HTD_3mm 10=HTD_
 top_flange=true;  // Set false to get an open-ended pulley
 
 motor_shaft = 5.0;	// NEMA17 motor shaft exact diameter = 5
-shaft_flat = 2.1;      // Radial distance of D flat on the shaft from its axis.  Set to...
+shaft_flat = 2.0;      // Radial distance of D flat on the shaft from its axis.  Set to...
 //shaft_flat = 1 + motor_shaft/2;   // ...this to get a round shaft.
 m3_dia = 3.2;		// 3mm hole diameter
 m3_nut_hex = 1;		// 1 for hex, 0 for square nut
